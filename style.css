@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+.name {
+  color: rgb(240, 29, 1);
+  font-weight: 700;
+  font-size: 30px;
+}
+.half-width {
+  float: left;
+  width: 40%;
+  margin-left: 220px;
+  margin-top: 80px;
+}
+.half-width p {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+#image-section {
+  margin-left: 0px !important;
+}
+#image-section img {
+  width: 500px;
+  height: 500px;
+}
+#name-section {
+  margin-top: 200px;
+}
+#bio-image {
+  width: 500px;
+  height: 500px;
+  margin-left: 150px;
+  margin-right: 0;
+}
+.biography {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+.bio-card-width {
+  float: left;
+  width: 40%;
+  margin-right: 0;
+}
+#bio-info {
+  float: right !important;
+  margin-top: 100px;
+  margin-right: 120px;
+}
+.work-section {
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  padding-top: 20px;
+}
+.work-section h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 60px;
+}
+.work-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
